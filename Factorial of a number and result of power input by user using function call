@@ -1,0 +1,18 @@
+def fact(n):
+  if n==0 or n==1:
+    return 1
+  else:
+    return n*fact(n-1)
+def exp(a,b):
+  e=1
+  for i in range(b):
+
+    e*=a
+  return e
+n=int(input('Enter a number '))
+num=fact(n)
+print(num)
+a=int(input('Enter base '))
+b=int(input('Enter power '))
+num1=exp(a,b)
+print(num1)
