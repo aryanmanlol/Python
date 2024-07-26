@@ -1,0 +1,10 @@
+def area(n1,n2):
+  if n2==1:
+    a=3.14*n1*n1
+    print('Area is',a)
+  else:
+    a=(1/2)*n1*n2
+    print('Area is',a)
+n1=int(input('Enter 1st number'))
+n2=int(input('ENter 2nd number or 1 to find the area of circle '))
+area(n1,n2)
