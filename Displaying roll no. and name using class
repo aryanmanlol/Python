@@ -1,0 +1,12 @@
+class student:
+  def __init__(self,rno,name):
+    self.rno=rno
+    self.name=name
+  def display(self):
+    print('roll no:',self.rno)
+    print('name:',self.name)
+
+a=int(input('enter roll no:'))
+b=input('ener name:')
+obj1=student(rno=a,name=b)
+obj1.display()
