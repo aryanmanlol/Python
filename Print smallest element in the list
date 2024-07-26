@@ -1,0 +1,8 @@
+list=[1,2,3,4,5,6,7]
+smallest=list[0]
+for i in list:
+ # smallest=list[0]
+  if i<list[0]:
+     i=smallest
+
+print(smallest)
