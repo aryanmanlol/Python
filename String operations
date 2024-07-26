@@ -1,0 +1,13 @@
+s1="hello "
+s2="world"
+#string concatenation:
+s3=s1+s2
+print("concatenated string: ",s3)
+#string length
+print("length of concatenated string: ",len(s3))
+#split
+words=s3.split()
+print("words in the string are: ",words)
+#count
+c=s3.count("l")
+print("count of l in string: ",c)
