@@ -1,0 +1,10 @@
+arr=([[3,6,8,3,5],[1,4,0,2,7]])
+n=int(input('Enter a number to check whether it exists in the matrix '))
+for i in arr:
+  for j in i:
+    if j==n:
+      f=1
+if f==1:
+  print(n,"exist in array")
+else:
+  print(n,"does not exist in array")
