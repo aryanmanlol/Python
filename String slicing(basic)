@@ -1,0 +1,2 @@
+str='ekta'
+str[1:3]
