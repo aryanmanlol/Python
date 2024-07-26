@@ -1,0 +1,5 @@
+M = [11,34,33,40,57]
+sum=0
+for i in M:
+  sum+=i*i
+print('Sum of squares of the elements :',sum)
