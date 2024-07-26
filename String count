@@ -1,0 +1,2 @@
+STR="Python Programming"
+STR.count('P')
