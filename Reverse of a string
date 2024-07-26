@@ -1,0 +1,3 @@
+s1="malyalam aata"
+s1=s1.replace('m','l')
+print(s1)
