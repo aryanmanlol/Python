@@ -1,0 +1,10 @@
+terms=int(input("enter no. of terms"))
+f1,f2=0,1
+print("series",f1," ",f2," ",end=" ")
+i=1
+while i<=terms-2:
+   f3=f1+f2
+   print(f3,end=" ")
+   f1=f2
+   f2=f3
+   i+=1
