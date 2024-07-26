@@ -1,0 +1,8 @@
+def simp(a,b,c):
+   d=a*b*c/100
+   return d
+a=int(input("enter amount"))
+b=int(input("enter roi"))
+c=int(input("enter time"))
+
+print("simple interest is",simp(a,b,c))
