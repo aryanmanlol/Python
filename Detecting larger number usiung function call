@@ -1,0 +1,10 @@
+def larger(a,b):
+  if a>b:
+    return a
+  else:
+    return b
+
+
+e=int(input('enter first number:'))
+a=int(input('enter second number:'))
+print("larger is:",larger(e,a))
