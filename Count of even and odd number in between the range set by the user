@@ -1,0 +1,10 @@
+p=int(input("enter the starting number: "))
+q=int(input("enter the last number: "))
+even,odd=0,0
+for i in range(p,q+1):
+    if i%2==0:
+        even+=1
+    else:
+        odd+=1
+print("even number count: ",even)
+print("odd number count: ",odd)
