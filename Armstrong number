@@ -1,0 +1,15 @@
+def armstrong(k):
+  sum=0
+  while k>0:
+    m=k%10
+    k=k//10
+    sum+=(m**3)
+
+
+k=int(input("enter no"))
+armstrong(k)
+if k==sum:
+    print("neil nitin mukesh")
+else:
+    print("laddu")
+print(sum)
