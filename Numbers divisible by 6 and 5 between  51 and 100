@@ -1,0 +1,6 @@
+count = 0
+for i in range(51, 100):
+  if i%5==0 and i%6==0:
+    print(i)
+    count+=1
+print("Total count of numbers divisible by 6 and 5:", count)
