@@ -1,0 +1,10 @@
+a=int(input("enter 1st side of traingle: "))
+b=int(input("enter 2nd side of traingle: "))
+c=int(input("enter 3rd side of traingle: "))
+
+if a==b==c:
+  print("traingle is equilateral")
+elif a==b or b==c or a==c:
+  print("traingle is isoceles")
+else:
+  print("traingle is scalene")
