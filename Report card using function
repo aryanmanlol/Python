@@ -1,0 +1,11 @@
+def percent(a):
+  if a>=90:
+    print("a+")
+  elif  90>a>=80:
+    print("a-")
+  elif 80>a>=60:
+    print("haha")
+
+a=int(input("enter percentage"))
+percent(a)
+
