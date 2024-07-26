@@ -1,0 +1,23 @@
+import numpy as np
+
+m=int(input("Enter number of rows"))
+n=int(input("Enter number of columns "))
+L=[]
+
+for i in range(m*n):
+  e=input('Enter alphabet ')
+  L.append(e)
+
+arr=np.array(L).reshape(m,n)
+print('Array is ',arr)
+
+v=[]
+for r in arr:
+  vcount=0
+  for e in r:
+    if e.lower() in "aeiou":
+      vcount+=1
+  v.append(vcount)
+
+max=max(v)
+print('Row with maximum number of vowels is',arr[v.index(max)])
