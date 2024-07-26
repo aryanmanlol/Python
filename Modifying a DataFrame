@@ -1,0 +1,13 @@
+import pandas as pd
+d={'Age':[10,20,30,40,50],
+'Grades':['A','B','A','B','C']}
+i=[1,2,3,4,5]
+a=pd.DataFrame(d,i)
+print(a)
+r=len(a.axes[0])
+c=len(a.axes[1])
+print('Number of rows :',r)
+print('Number of columns :',c)
+print('Updated DataFrame :')
+a = a.assign(NewAge=[13,23,33,43,53])
+print(a)
