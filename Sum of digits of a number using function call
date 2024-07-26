@@ -1,0 +1,12 @@
+def sum(k):
+  sum=0
+  while k>0:
+    m=k%10
+    k=k//10
+
+
+    sum+=m
+  return sum
+k=int(input("enter no."))
+
+print("sum is",sum(k))
