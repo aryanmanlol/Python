@@ -1,0 +1,14 @@
+import pandas as pd
+d={"Customer Name":['Mike','Smith','Raj','Chris'],
+   "Salary":[90000,25000,45000,5000],
+   "Age":['25','65','35','20'],
+   "Loan Status":['Safe','Risky','Safe','Risky']}
+
+df=pd.DataFrame(d)
+print(df)
+
+d1=df.dtypes
+print(d1)
+
+d2=df.tail(2)
+print(d2)
