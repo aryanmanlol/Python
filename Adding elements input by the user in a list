@@ -1,0 +1,8 @@
+L=[]
+n=int(input('Enter number of elements in the list '))
+for i in range(n):
+  e=input('Enter element ')
+  L.append(e)
+func(L)
+
+
